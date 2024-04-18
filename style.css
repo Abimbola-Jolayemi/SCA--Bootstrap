@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    gap: 500px;
+    border-bottom: 1px solid grey;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.logo i{
+    font-size: 40px;
+}
+.logo h2{
+    padding-top: 10px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main .main-text{
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+.main-text p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+}
+
+.main-card{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: auto;
+    gap: 30px;
+}
+
+.card{
+    width: 900px;
+    height: 320px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card h4{
+    font-size: 30px;
+    font-weight: 100;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 10px;
+}
+
+.card h2{
+    font-size: 40px;
+    font-weight: 100;
+    padding: 10px 10px;
+}
+
+.card p{
+    font-size: 20px;
+    font-weight: 100;
+}
+.card button{
+    width: 280px;
+    height: 48px;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+.plans h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 30px 10px;
+}
+
+table{
+    width: 1000px;
+    margin: auto;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+th{
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.tr1{
+    text-align: left;
+}
+
+.bottom-text{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    padding: 30px 270px;
+    gap: 100px;
+}
+
+.bt1 i{
+    font-size: 27px;
+}
+
+.bt1 p{
+    font-size: 17px;
+    font-weight: 100;
+}
+.bt2{
+    text-align: left;
+}
+
+.bt2 h4{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.bt2 p{
+    font-size: 18px;
+    padding: 2px;
+}
